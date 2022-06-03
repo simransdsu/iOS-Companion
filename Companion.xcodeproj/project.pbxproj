@@ -25,6 +25,36 @@
 		49B461AA28484E2F009A77BE /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B461A328484E2F009A77BE /* Data+Extensions.swift */; };
 		49B461AB28484E2F009A77BE /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B461A428484E2F009A77BE /* Date+Extensions.swift */; };
 		49B461AC28484E2F009A77BE /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B461A428484E2F009A77BE /* Date+Extensions.swift */; };
+		49CBB4B2284973CC00698F79 /* PetFinderHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4B1284973CC00698F79 /* PetFinderHttpClient.swift */; };
+		49CBB4B3284973CC00698F79 /* PetFinderHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4B1284973CC00698F79 /* PetFinderHttpClient.swift */; };
+		49CBB4B72849755F00698F79 /* PetFinderAuthenticationAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4B62849755F00698F79 /* PetFinderAuthenticationAPIResponse.swift */; };
+		49CBB4B82849755F00698F79 /* PetFinderAuthenticationAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4B62849755F00698F79 /* PetFinderAuthenticationAPIResponse.swift */; };
+		49CBB4BB284977C700698F79 /* PetFinderAuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4BA284977C700698F79 /* PetFinderAuthenticationRepository.swift */; };
+		49CBB4BC284977C700698F79 /* PetFinderAuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4BA284977C700698F79 /* PetFinderAuthenticationRepository.swift */; };
+		49CBB4BF284978B800698F79 /* PetFinderAuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4BE284978B800698F79 /* PetFinderAuthInteractor.swift */; };
+		49CBB4C0284978B800698F79 /* PetFinderAuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4BE284978B800698F79 /* PetFinderAuthInteractor.swift */; };
+		49CBB4C328497A9100698F79 /* PetFinderAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4C228497A9100698F79 /* PetFinderAuthViewModel.swift */; };
+		49CBB4C428497A9100698F79 /* PetFinderAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4C228497A9100698F79 /* PetFinderAuthViewModel.swift */; };
+		49CBB4C828498A1600698F79 /* PetFinderKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4C728498A1600698F79 /* PetFinderKeys.swift */; };
+		49CBB4C928498A1600698F79 /* PetFinderKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4C728498A1600698F79 /* PetFinderKeys.swift */; };
+		49CBB4CB2849907600698F79 /* Companion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4CA2849907600698F79 /* Companion.swift */; };
+		49CBB4CC2849907600698F79 /* Companion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4CA2849907600698F79 /* Companion.swift */; };
+		49CBB4CE2849913800698F79 /* CompanionsAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4CD2849913800698F79 /* CompanionsAPIResponse.swift */; };
+		49CBB4CF2849913800698F79 /* CompanionsAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4CD2849913800698F79 /* CompanionsAPIResponse.swift */; };
+		49CBB4D12849BF2A00698F79 /* worldcities.json in Resources */ = {isa = PBXBuildFile; fileRef = 49CBB4D02849BF2A00698F79 /* worldcities.json */; };
+		49CBB4D22849BF2A00698F79 /* worldcities.json in Resources */ = {isa = PBXBuildFile; fileRef = 49CBB4D02849BF2A00698F79 /* worldcities.json */; };
+		49CBB4D52849C7C200698F79 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4D42849C7C200698F79 /* City.swift */; };
+		49CBB4D62849C7C200698F79 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4D42849C7C200698F79 /* City.swift */; };
+		49CBB4D82849C7DD00698F79 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4D72849C7DD00698F79 /* Array+Extensions.swift */; };
+		49CBB4D92849C7DD00698F79 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4D72849C7DD00698F79 /* Array+Extensions.swift */; };
+		49CBB4DC2849C80800698F79 /* CompanionsSearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4DB2849C80800698F79 /* CompanionsSearchScreen.swift */; };
+		49CBB4DD2849C80800698F79 /* CompanionsSearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4DB2849C80800698F79 /* CompanionsSearchScreen.swift */; };
+		49CBB4E02849C84A00698F79 /* CompanionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4DF2849C84A00698F79 /* CompanionRowView.swift */; };
+		49CBB4E12849C84A00698F79 /* CompanionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4DF2849C84A00698F79 /* CompanionRowView.swift */; };
+		49CBB4E32849C9AA00698F79 /* CompanionSearchSuggestionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4E22849C9AA00698F79 /* CompanionSearchSuggestionScreen.swift */; };
+		49CBB4E42849C9AA00698F79 /* CompanionSearchSuggestionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4E22849C9AA00698F79 /* CompanionSearchSuggestionScreen.swift */; };
+		49CBB4E72849CAA300698F79 /* CompanionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4E62849CAA300698F79 /* CompanionsListView.swift */; };
+		49CBB4E82849CAA300698F79 /* CompanionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBB4E62849CAA300698F79 /* CompanionsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +70,21 @@
 		49B461A228484E2F009A77BE /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		49B461A328484E2F009A77BE /* Data+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		49B461A428484E2F009A77BE /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		49CBB4B1284973CC00698F79 /* PetFinderHttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderHttpClient.swift; sourceTree = "<group>"; };
+		49CBB4B62849755F00698F79 /* PetFinderAuthenticationAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderAuthenticationAPIResponse.swift; sourceTree = "<group>"; };
+		49CBB4BA284977C700698F79 /* PetFinderAuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderAuthenticationRepository.swift; sourceTree = "<group>"; };
+		49CBB4BE284978B800698F79 /* PetFinderAuthInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderAuthInteractor.swift; sourceTree = "<group>"; };
+		49CBB4C228497A9100698F79 /* PetFinderAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderAuthViewModel.swift; sourceTree = "<group>"; };
+		49CBB4C728498A1600698F79 /* PetFinderKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderKeys.swift; sourceTree = "<group>"; };
+		49CBB4CA2849907600698F79 /* Companion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companion.swift; sourceTree = "<group>"; };
+		49CBB4CD2849913800698F79 /* CompanionsAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionsAPIResponse.swift; sourceTree = "<group>"; };
+		49CBB4D02849BF2A00698F79 /* worldcities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = worldcities.json; sourceTree = "<group>"; };
+		49CBB4D42849C7C200698F79 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		49CBB4D72849C7DD00698F79 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		49CBB4DB2849C80800698F79 /* CompanionsSearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionsSearchScreen.swift; sourceTree = "<group>"; };
+		49CBB4DF2849C84A00698F79 /* CompanionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionRowView.swift; sourceTree = "<group>"; };
+		49CBB4E22849C9AA00698F79 /* CompanionSearchSuggestionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionSearchSuggestionScreen.swift; sourceTree = "<group>"; };
+		49CBB4E62849CAA300698F79 /* CompanionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +120,7 @@
 				49B4619128484DDB009A77BE /* Core */,
 				49B46160284846F7009A77BE /* CompanionApp.swift */,
 				49B46161284846F7009A77BE /* ContentView.swift */,
+				49CBB4D02849BF2A00698F79 /* worldcities.json */,
 				49B46162284846F8009A77BE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -100,8 +146,14 @@
 		49B4619128484DDB009A77BE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				49CBB4B02849734800698F79 /* PetFinderHttpClient */,
+				49CBB4D32849C78800698F79 /* Views */,
+				49CBB4C6284989F300698F79 /* Utils */,
+				49CBB4B42849753A00698F79 /* Models */,
+				49CBB4C128497A8400698F79 /* ViewModels */,
+				49CBB4BD284978A600698F79 /* Interactors */,
+				49CBB4B92849776F00698F79 /* Repositories */,
 				49B4619F28484E14009A77BE /* Extensions */,
+				49CBB4B02849734800698F79 /* PetFinderHttpClient */,
 				49B4619228484DF0009A77BE /* Networking */,
 			);
 			path = Core;
@@ -131,6 +183,7 @@
 				49B461A428484E2F009A77BE /* Date+Extensions.swift */,
 				49B461A128484E2F009A77BE /* Encodable+Extensions.swift */,
 				49B461A228484E2F009A77BE /* String+Extensions.swift */,
+				49CBB4D72849C7DD00698F79 /* Array+Extensions.swift */,
 			);
 			path = Foundations;
 			sourceTree = "<group>";
@@ -138,8 +191,95 @@
 		49CBB4B02849734800698F79 /* PetFinderHttpClient */ = {
 			isa = PBXGroup;
 			children = (
+				49CBB4B1284973CC00698F79 /* PetFinderHttpClient.swift */,
 			);
 			path = PetFinderHttpClient;
+			sourceTree = "<group>";
+		};
+		49CBB4B42849753A00698F79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4B52849754200698F79 /* APIResponseModels */,
+				49CBB4CA2849907600698F79 /* Companion.swift */,
+				49CBB4D42849C7C200698F79 /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49CBB4B52849754200698F79 /* APIResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4B62849755F00698F79 /* PetFinderAuthenticationAPIResponse.swift */,
+				49CBB4CD2849913800698F79 /* CompanionsAPIResponse.swift */,
+			);
+			path = APIResponseModels;
+			sourceTree = "<group>";
+		};
+		49CBB4B92849776F00698F79 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4BA284977C700698F79 /* PetFinderAuthenticationRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		49CBB4BD284978A600698F79 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4BE284978B800698F79 /* PetFinderAuthInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		49CBB4C128497A8400698F79 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4C228497A9100698F79 /* PetFinderAuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		49CBB4C6284989F300698F79 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4C728498A1600698F79 /* PetFinderKeys.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		49CBB4D32849C78800698F79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4E52849CA8E00698F79 /* ListViews */,
+				49CBB4DE2849C83800698F79 /* RowViews */,
+				49CBB4DA2849C7F600698F79 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49CBB4DA2849C7F600698F79 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4DB2849C80800698F79 /* CompanionsSearchScreen.swift */,
+				49CBB4E22849C9AA00698F79 /* CompanionSearchSuggestionScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		49CBB4DE2849C83800698F79 /* RowViews */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4DF2849C84A00698F79 /* CompanionRowView.swift */,
+			);
+			path = RowViews;
+			sourceTree = "<group>";
+		};
+		49CBB4E52849CA8E00698F79 /* ListViews */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB4E62849CAA300698F79 /* CompanionsListView.swift */,
+			);
+			path = ListViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B46174284846F8009A77BE /* Assets.xcassets in Resources */,
+				49CBB4D12849BF2A00698F79 /* worldcities.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B46175284846F8009A77BE /* Assets.xcassets in Resources */,
+				49CBB4D22849BF2A00698F79 /* worldcities.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,13 +383,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B461A528484E2F009A77BE /* Encodable+Extensions.swift in Sources */,
+				49CBB4D82849C7DD00698F79 /* Array+Extensions.swift in Sources */,
+				49CBB4E72849CAA300698F79 /* CompanionsListView.swift in Sources */,
+				49CBB4CE2849913800698F79 /* CompanionsAPIResponse.swift in Sources */,
+				49CBB4E32849C9AA00698F79 /* CompanionSearchSuggestionScreen.swift in Sources */,
 				49B4619B28484DFE009A77BE /* ApiFailureError.swift in Sources */,
+				49CBB4C328497A9100698F79 /* PetFinderAuthViewModel.swift in Sources */,
 				49B46172284846F8009A77BE /* ContentView.swift in Sources */,
 				49B461AB28484E2F009A77BE /* Date+Extensions.swift in Sources */,
+				49CBB4DC2849C80800698F79 /* CompanionsSearchScreen.swift in Sources */,
 				49B461A928484E2F009A77BE /* Data+Extensions.swift in Sources */,
+				49CBB4BB284977C700698F79 /* PetFinderAuthenticationRepository.swift in Sources */,
+				49CBB4C828498A1600698F79 /* PetFinderKeys.swift in Sources */,
+				49CBB4D52849C7C200698F79 /* City.swift in Sources */,
+				49CBB4B2284973CC00698F79 /* PetFinderHttpClient.swift in Sources */,
 				49B4619D28484DFE009A77BE /* NetworkingClient.swift in Sources */,
 				49B461A728484E2F009A77BE /* String+Extensions.swift in Sources */,
+				49CBB4E02849C84A00698F79 /* CompanionRowView.swift in Sources */,
 				49B46170284846F8009A77BE /* CompanionApp.swift in Sources */,
+				49CBB4BF284978B800698F79 /* PetFinderAuthInteractor.swift in Sources */,
+				49CBB4B72849755F00698F79 /* PetFinderAuthenticationAPIResponse.swift in Sources */,
+				49CBB4CB2849907600698F79 /* Companion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,13 +412,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B461A628484E2F009A77BE /* Encodable+Extensions.swift in Sources */,
+				49CBB4D92849C7DD00698F79 /* Array+Extensions.swift in Sources */,
+				49CBB4E82849CAA300698F79 /* CompanionsListView.swift in Sources */,
+				49CBB4CF2849913800698F79 /* CompanionsAPIResponse.swift in Sources */,
+				49CBB4E42849C9AA00698F79 /* CompanionSearchSuggestionScreen.swift in Sources */,
 				49B4619C28484DFE009A77BE /* ApiFailureError.swift in Sources */,
+				49CBB4C428497A9100698F79 /* PetFinderAuthViewModel.swift in Sources */,
 				49B46173284846F8009A77BE /* ContentView.swift in Sources */,
 				49B461AC28484E2F009A77BE /* Date+Extensions.swift in Sources */,
+				49CBB4DD2849C80800698F79 /* CompanionsSearchScreen.swift in Sources */,
 				49B461AA28484E2F009A77BE /* Data+Extensions.swift in Sources */,
+				49CBB4BC284977C700698F79 /* PetFinderAuthenticationRepository.swift in Sources */,
+				49CBB4C928498A1600698F79 /* PetFinderKeys.swift in Sources */,
+				49CBB4D62849C7C200698F79 /* City.swift in Sources */,
+				49CBB4B3284973CC00698F79 /* PetFinderHttpClient.swift in Sources */,
 				49B4619E28484DFE009A77BE /* NetworkingClient.swift in Sources */,
 				49B461A828484E2F009A77BE /* String+Extensions.swift in Sources */,
+				49CBB4E12849C84A00698F79 /* CompanionRowView.swift in Sources */,
 				49B46171284846F8009A77BE /* CompanionApp.swift in Sources */,
+				49CBB4C0284978B800698F79 /* PetFinderAuthInteractor.swift in Sources */,
+				49CBB4B82849755F00698F79 /* PetFinderAuthenticationAPIResponse.swift in Sources */,
+				49CBB4CC2849907600698F79 /* Companion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

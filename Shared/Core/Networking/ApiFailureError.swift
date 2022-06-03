@@ -6,7 +6,7 @@ struct CompanionError {
     var message: String
     var errorMessage: String
     
-    init(error: APIErrors) {
+    init(error: APIError) {
         title = "Error"
         message = "Something went wrong, please try again."
         switch(error) {

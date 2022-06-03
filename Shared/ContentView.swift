@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var viewModel = PetFinderAuthViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        CompanionsSearchScreen()
+            .environmentObject(viewModel)
     }
 }
 
