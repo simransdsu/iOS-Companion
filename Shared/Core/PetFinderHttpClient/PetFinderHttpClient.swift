@@ -71,6 +71,6 @@ public struct PetFinderHttpClient: PetFinderHttpProtocol {
 public enum PetFinderEndpoints: String {
     
     case authenticate = "https://api.petfinder.com/v2/oauth2/token"
-    case companions = "https://api.petfinder.com/v2/companions"
+    case companions = "https://api.petfinder.com/v2/animals"
     
 }

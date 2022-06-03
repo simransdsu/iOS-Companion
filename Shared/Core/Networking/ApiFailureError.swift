@@ -24,6 +24,8 @@ struct CompanionError {
             errorMessage = description
         case .failedToParseJSON(let description):
             errorMessage = description
+        case .notFound(let description):
+            errorMessage = description
         case .unknown(let description):
             errorMessage = description
         }

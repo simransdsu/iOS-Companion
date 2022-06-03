@@ -29,6 +29,6 @@ struct PetFinderAuthenticationRepository: PetFinderAuthenticationRepositoryProto
     func getCompanions() async throws -> [Companion] {
         
         let companionsResponse: CompanionsAPIResponse = try await httpClient.GET(trial: 1)
-        return companionsResponse.companions
+        return companionsResponse.animals
     }
 }

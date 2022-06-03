@@ -9,5 +9,5 @@ import Foundation
 
 struct CompanionsAPIResponse: Codable {
     
-    let companions: [Companion]
+    let animals: [Companion]
 }

@@ -63,6 +63,7 @@ public class NetworkingClient: NetworkingClientProtocol {
     
     private func parseResponse<ResponseType: Decodable>(type: ResponseType.Type,
                                                          response: APIHttpResponse) throws -> (ResponseType, StatusCode) {
+        
         switch response.statusCode {
         case 200..<300:
             do {
@@ -77,6 +78,8 @@ public class NetworkingClient: NetworkingClientProtocol {
             throw APIError.unauthorized("You are not authorized. Please try again.")
         case 400:
             throw APIError.badRequest("Bad request with status code: \(response.statusCode)")
+        case 404:
+            throw APIError.notFound("Request url not found: \(response.response.url)")
         default:
             throw APIError.unknown("Failed to parse response with status code: \(response.statusCode) ")
         }
@@ -174,6 +177,7 @@ public enum APIError: Error {
     case invalidUrl(String)
     case unauthorized(String)
     case failedToParseJSON(String)
+    case notFound(String)
     case unknown(String)
     
     init(error: Error) {
