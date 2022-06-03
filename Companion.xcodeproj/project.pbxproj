@@ -119,7 +119,6 @@
 			children = (
 				49B4619128484DDB009A77BE /* Core */,
 				49B46160284846F7009A77BE /* CompanionApp.swift */,
-				49B46161284846F7009A77BE /* ContentView.swift */,
 				49CBB4D02849BF2A00698F79 /* worldcities.json */,
 				49B46162284846F8009A77BE /* Assets.xcassets */,
 			);
@@ -147,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				49CBB4D32849C78800698F79 /* Views */,
+				49B46161284846F7009A77BE /* ContentView.swift */,
 				49CBB4C6284989F300698F79 /* Utils */,
 				49CBB4B42849753A00698F79 /* Models */,
 				49CBB4C128497A8400698F79 /* ViewModels */,

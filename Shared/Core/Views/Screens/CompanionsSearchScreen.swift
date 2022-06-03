@@ -26,7 +26,9 @@ struct CompanionsSearchScreen: View {
                         CompanionSearchSuggestionScreen()
                             .environmentObject(viewModel)
                     }
+                    #if os(iOS)
                     .navigationBarTitle("Companion")
+                    #endif
             }
         }
     }
